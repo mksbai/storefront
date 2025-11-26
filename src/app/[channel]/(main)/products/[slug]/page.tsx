@@ -66,7 +66,6 @@ export async function generateMetadata(
 export async function generateStaticParams() {
 	return [];
 }
-
 const parser = edjsHTML();
 
 export default async function Page(props: {
